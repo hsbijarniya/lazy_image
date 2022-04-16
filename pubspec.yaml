@@ -1,0 +1,22 @@
+name: lazy_image
+description: Load image when widget became visible and load image of appropriate dimensions.
+version: 0.0.2
+homepage: https://ensorta.com
+repository: 
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  visibility_detector: ^0.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+
+flutter:
